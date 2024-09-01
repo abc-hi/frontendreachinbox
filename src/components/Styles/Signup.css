@@ -1,0 +1,111 @@
+.page-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 663px;
+    padding: 59px 29px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+    background: linear-gradient(#111214, #121212);
+}
+
+
+    .boxContainer{
+     border-radius:1px solid grey ;
+     border-color: red;
+     width: 100%;
+    max-width: 600px;
+    height: 300px;
+    }
+    .smallContainer1 {
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: center;
+      }
+      .smallContainer2 {
+        background-color: transparent; 
+        text-align: center;
+        margin: 0 auto; 
+        padding: 10px 0; 
+    }
+    
+    .google-signin-button {
+        background-color: #121212;
+        color: white; 
+        border: none; 
+        border-radius: 4px;
+        padding: 10px 20px; 
+        cursor: pointer; 
+        font-size: 16px; 
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        width: 100%; 
+        max-width: 300px; 
+        margin: 0 auto; 
+    }
+    
+    .google-signin-button:hover {
+        background-color: #1a1a1a; 
+    }
+    /* Container styling */
+.smallContainer1 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.smallContainer2,
+.smallContainer3 {
+    background-color: transparent; 
+    text-align: center; 
+    padding: 10px 0;
+    margin: 0 auto; 
+}
+
+.google-signin-button,
+.account-create-button {
+    background-color: #121212; 
+    color: white; 
+    border: none; 
+    border-radius: 4px;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    width: 100%; 
+    max-width: 250px; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+.google-signin-button:hover,
+.account-create-button:hover {
+    background-color: #1a1a1a; 
+}
+.smallContainer3 {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+
+.smallContainer3 button {
+    background-color: blue; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    width: 100%; 
+    max-width: 200px;
+    margin: 0 auto; 
+    display: block; 
+}
+
+
+.smallContainer3 button:hover {
+    background-color: blue;
+}
+.smallContainer4{
+    margin-bottom: 50px;
+    margin-left: 17px;
+} 

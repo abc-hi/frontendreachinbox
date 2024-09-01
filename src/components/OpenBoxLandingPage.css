@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.sidebar span {
+    font-size: 1rem;
+}

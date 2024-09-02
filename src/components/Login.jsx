@@ -13,7 +13,8 @@ const Login = ({ setToken }) => {
         const payloads = { email, password };
 
         try {
-            const res = await axios.post('http://localhost:4000/api/user/login', payloads);
+            const res = await axios.post('https://backendreachinbox.onrender.com/api/user/login', payloads);
+            // http://localhost:4000/api/user/login
             setResponseMsg(res.data.message);
             setToken(res.data.token);
         } catch (err) {

@@ -19,7 +19,8 @@ const UserRegister = () => {
         const payloads = { username, password, email, role };
 
         try {
-            const res = await axios.post('http://localhost:4000/api/user/register', payloads);
+            const res = await axios.post('https://backendreachinbox.onrender.com/api/user/register', payloads);
+            // http://localhost:4000/api/user/register
             setResponseMsg(res.data.message);
         } catch (err) {
             console.log(err);
